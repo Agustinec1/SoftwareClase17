@@ -46,15 +46,16 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Diseño de Software
+            Agustín Escobar Diseño de Software
           </li>
-          <li>Clase 17 de Octubre 2024</li>
+          <li>Actividad Clase 17 de Octubre 2024</li>
         </ol>
         <button
-            type="submit"
-            className="block w-full rounded-md bg-sky-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            type="button"
+            className="block w-full rounded-md bg-fuchsia-950 px-7.5 py-5.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            onClick={() => window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'}
           >
-            Ejemplo Botón
+            !! Apreta este boton para una sorpresa !!
           </button>
           {/* Sizes */}
           <fieldset aria-label="Choose a size" className="mt-10">
@@ -64,6 +65,7 @@ export default function Home() {
                 Size guide
               </a>
             </div>
+            
 
             <RadioGroup
               value={selectedSize}
